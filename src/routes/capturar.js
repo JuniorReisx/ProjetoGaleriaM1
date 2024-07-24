@@ -5,5 +5,5 @@ import { addDados, getDados } from "../controllers/capturar.controllers.js";
 export const capturarRouter = Router()
 
 
-capturarRouter.get("/dados", getDados);
-capturarRouter.post("/postardados", addDados);
+capturarRouter.get("/getDados", getDados);
+capturarRouter.post("/Dados", addDados);
